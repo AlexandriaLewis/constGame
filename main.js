@@ -10,6 +10,22 @@ character.prototype.throwShade = function(enemy){
   enemy.damage(this);
 };
 
+function prTeam(options){
+  var options = options || {};
+  this.defense = getRando();
+}
+
+function medium(options){
+  var options = options || {};
+  this.name = options.name || "twitter";
+  this.power = getRando();
+}
+
+function squadGoals(options){
+  this.name = options.name || "tswift";
+  this.power = getRando();
+}
+
 character.prototype.damage = function(enemy){
   var rando = Math.floor(Math.random() * (100 - 1)) + 1;
   if(rando % 2 === 0){
@@ -83,22 +99,6 @@ character.prototype.network = function(name){
   this.squadGoals = new squadGoals({name:name});
   console.log(this.name+" connected with "+this.squadGoals.name+" for power: "+this.squadGoals.power);
 };
-
-function prTeam(options){
-  var options = options || {};
-  this.defense = getRando();
-}
-
-function medium(options){
-  var options = options || {};
-  this.name = options.name || "twitter";
-  this.power = getRando();
-}
-
-function squadGoals(options){
-  this.name = options.name || "tswift";
-  this.power = getRando();
-}
 
 function getRando(){
   return Math.floor(Math.random() * (11 - 1)) + 1;
