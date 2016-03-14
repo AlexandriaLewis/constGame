@@ -1,0 +1,18 @@
+/* Coolors Exported Palette - coolors.co/211103-3d1308-7b0d1e-9f2042-f8e5ee */
+* {
+  background-color: #3d1308;
+  font-family: 'Muli', sans-serif;
+  color: #f8e5ee; }
+
+h1 {
+  color: #f8e5ee;
+  font-family: 'Montserrat Subrayada', sans-serif; }
+
+h1.siteName {
+  margin: 1%;
+  text-align: center;
+  font-size: 40px; }
+
+form.character {
+  margin: 1%;
+  text-align: center; }

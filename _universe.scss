@@ -1,0 +1,22 @@
+/* Coolors Exported Palette - coolors.co/211103-3d1308-7b0d1e-9f2042-f8e5ee */
+
+$color1: #211103; //rgba(33, 17, 3, 100) dark brown
+$color2: #3d1308; //rgba(61, 19, 8, 100) brown red
+$color3: #7b0d1e; //rgba(123, 13, 30, 100) red
+$color4: #9f2042; //rgba(159, 32, 66, 100) pink
+$color5: #f8e5ee; //rgba(248, 229, 238, 100) pink white
+
+// font-family: 'Cinzel Decorative', cursive;
+// font-family: 'Montserrat Subrayada', sans-serif;
+// font-family: 'Muli', sans-serif;
+
+* {
+  background-color: $color2;
+  font-family: 'Muli', sans-serif;
+  color: $color5;
+}
+
+h1 {
+  color: $color5;
+  font-family: 'Montserrat Subrayada', sans-serif;
+}

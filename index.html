@@ -2,12 +2,69 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Shade Brigade</title>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" src="//normalize-css.googlecode.com/svn/trunk/normalize.css" />
+    <link rel="stylesheet" href="main.css" media="screen" title="no title" charset="utf-8">
+    <link href='https://fonts.googleapis.com/css?family=Cinzel+Decorative|Montserrat+Subrayada|Muli' rel='stylesheet' type='text/css'>
   </head>
   <body>
+    <div class="body">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="siteName">Shade Brigade</h1>
+        </div>
+      </div>
 
+      <div class="row">
+        <div class="col-md-12">
+          <form role="form" class="character" action="index.html" method="post">
+            <div class="form-group">
+            <input type="text" name="charName" placeholder="Character Name">
+            <button type="submit" class="char btn btn-default">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="row cards">
+        <div class="col-md-4"></div>
+        <div class="table-resonsive col-md-4">
+          <table class="table table-condensed">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Followers</th>
+                <th>Reputation</th>
+                <th>Clout</th>
+              </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+          </table>
+        </div>
+        <div class="col-md-4"></div>
+      </div>
+
+      <div class="row buttons">
+        <div class="col-md-4"></div>
+        <div class="col-md-4">
+          <!-- <button class="btn btn-primary" type="button" name="network">Network</button>
+          <button class="btn btn-info" type="button" name="post">Post Work</button> -->
+          <!-- <button class="btn btn-danger" type="button" name="post">Throw Shade</button> -->
+        </div>
+        <div class="col-md-4"></div>
+      </div>
+
+    </div>
+    <script src="app.js" charset="utf-8"></script>
     <script src="/bower_components/underscore/underscore.js" charset="utf-8"></script>
     <script src="/bower_components/jquery/dist/jquery.js" charset="utf-8"></script>
+    <script src="templates.js" charset="utf-8"></script>
     <script src="main.js" charset="utf-8"></script>
   </body>
 </html>

@@ -1,0 +1,52 @@
+var templates = {
+  charStats: [
+    '<div class="table-resonsive col-md-4">',
+      '<table class="table table-condensed">',
+        '<thead>',
+          '<tr>',
+            '<th>Name</th>',
+            '<th>Followers</th>',
+            '<th>Reputation</th>',
+            '<th>Clout</th>',
+          '</tr>',
+        '</thead>',
+        '<tbody>',
+        '<tr>',
+          '<td class="name"><%= name %></td>',
+          '<td><%= followers %></td>',
+          '<td><%= reputation %></td>',
+          '<td><%= clout %></td>',
+        '</tr>',
+        '</tbody>',
+      '</table>',
+      '<button class="btn btn-danger" type="button" name="shade">Throw Shade</button>',
+    '</div>'
+  ].join(''),
+  newChar: [
+    '<div class="table-resonsive col-md-4">',
+      '<table class="table table-condensed">',
+        '<thead>',
+          '<tr>',
+            '<th>Name</th>',
+            '<th>Followers</th>',
+            '<th>Reputation</th>',
+            '<th>Clout</th>',
+          '</tr>',
+        '</thead>',
+        '<tbody>',
+        '<tr>',
+          '<td><%= name %></td>',
+          '<td><%= followers %></td>',
+          '<td><%= reputation %></td>',
+          '<td><%= clout %></td>',
+        '</tr>',
+        '</tbody>',
+      '</table>',
+      '<button class="btn btn-primary" type="button" name="network">Network</button>',
+      '<button class="btn btn-info" type="button" name="post">Post Work</button>',
+    '</div>'
+  ].join(''),
+  badges: [
+    '<span class="badge"><%= power %></span>'
+  ].join('')
+}
